@@ -1,7 +1,7 @@
 
 ##简介
-* [请求过程]()<br>
-* [代码示例](Code Instance)<br>
+* [请求过程](Trade-API-Method)<br>
+* [代码示例](Code-Instance)<br>
 * [错误代码](Error-Code)<br>
 ##交易API
 * [获取个人资产信息](get_account_info)<br>
