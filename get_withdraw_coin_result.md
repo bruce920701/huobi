@@ -1,4 +1,5 @@
-####查询提币BTC/LTC get_withdraw_coin_result
+##查询提币BTC/LTC 
+###get_withdraw_coin_result
 <table class="table table-bordered">
     <thead>
     <tr>
