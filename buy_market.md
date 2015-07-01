@@ -1,4 +1,4 @@
-####买入(市价单) buy_market
+##买入(市价单) buy_market
 <table class="table table-bordered">
     <thead>
     <tr>
