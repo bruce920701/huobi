@@ -1,8 +1,8 @@
-
 ##简介
 * [请求过程](Trade-API-Method)<br>
 * [代码示例](Code-Instance)<br>
 * [错误代码](Error-Code)<br>
+
 ##交易API
 * [获取个人资产信息](get_account_info)<br>
 * [获取所有正在进行的委托](get_orders)<br>
