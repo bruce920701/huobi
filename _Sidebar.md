@@ -20,17 +20,15 @@
 * [查询提币BTC/LTC](get_withdraw_coin_result)<br> 
 
 ##行情API
-* [买入](buy)<br>
-* [卖出](sell)<br>
-* [买入(市价单)](buy_market)<br>
-* [卖出(市价单)](sell_market)<br>
+* [分时行情图](Interval)<br>
+* [实时行情图](Candlestick-Chart)<br>
+* [买卖盘和实时成交数据](Order-Book-and-TAS)<br>
 
 ##FIX行情交易API（V2）
-* [买入](buy)<br>
-* [卖出](sell)<br>
-* [买入(市价单)](buy_market)<br>
-* [卖出(市价单)](sell_market)<br>
-
+* [会话管理](buy)<br>
+* [交易接口](sell)<br>
+* [行情接口](FIX-Market-Data-Interface)<br>
+* [API参考实例](FIX-API-instances)<br>
 ##WebSocket行情API
 * [买入](buy)<br>
 * [卖出](sell)<br>
