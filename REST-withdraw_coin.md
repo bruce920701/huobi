@@ -49,6 +49,11 @@
         <td colspan="2" style="word-break: break-all;">sign = md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&amp;coin_type=1&amp;created=1386844119&amp;method=withdraw_coin&amp;secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&amp;withdraw_address=xxxxxx&amp;withdraw_amount=0.1)
         </td>
     </tr>
+    <tr>
+        <th>market</th>
+        <td>选填</td>
+        <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)</td>
+    </tr>
     </tbody>
 </table>
 ####返回结果
