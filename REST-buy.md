@@ -45,11 +45,6 @@
         <td>MD5签名结果</td>
     </tr>
     <tr>
-        <th>market</th>
-        <td>选填</td>
-        <td>交易市场 cny:人民币交易市场，usd:美元交易市场，默认是cny(不参与MD5签名)</td>
-    </tr>
-    <tr>
         <th>加密实例</th>
         <td colspan="2">sign =
             md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&amp;amount=10&amp;coin_type=1&amp;created=1386844119&amp;method=buy&amp;price=5000&amp;secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx)
@@ -64,6 +59,11 @@
         <th>trade_id</th>
         <td>选填</td>
         <td>此项不参与sign签名过程，用户自定义订单号为数字(最多15位，唯一值)</td>
+    </tr>
+    <tr>
+        <th>market</th>
+        <td>选填</td>
+        <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)</td>
     </tr>
     </tbody>
 </table>
