@@ -1,5 +1,5 @@
-##获取委托详情 
-###order_info
+##账户内转账 
+###transfer
 <table class="table table-bordered">
     <thead>
     <tr>
@@ -12,7 +12,7 @@
     <tr>
         <th>method</th>
         <td>必填</td>
-        <td>请求的方法 order_info</td>
+        <td>请求的方法 transfer</td>
     </tr>
     <tr>
         <th>access_key</th>
@@ -20,14 +20,19 @@
         <td>访问密匙</td>
     </tr>
     <tr>
-        <th>coin_type</th>
+        <th>account_from</th>
         <td>必填</td>
-        <td>币种 1 比特币 2 莱特币</td>
+        <td>账户类型 1 人民币账户 2 美元账户</td>
     </tr>
     <tr>
-        <th>id</th>
+        <th>account_to</th>
         <td>必填</td>
-        <td>委托订单ID</td>
+        <td>账户类型 1 人民币账户 2 美元账户</td>
+    </tr>
+    <tr>
+        <th>amount</th>
+        <td>必填</td>
+        <td>转账数量</td>
     </tr>
     <tr>
         <th>created</th>
@@ -46,9 +51,9 @@
         </td>
     </tr>
     <tr>
-        <th>market</th>
-        <td>选填</td>
-        <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)</td>
+        <th>coin_type</th>
+        <td>选填填</td>
+        <td>币种 1 比特币（默认） 2 莱特币， 不参与签名</td>
     </tr>
     </tbody>
 </table>
