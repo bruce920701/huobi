@@ -5,7 +5,7 @@ acceptor端出现任何异常都返回该类型的消息
 		<tr>
 			<th>消息名称</th>
 			<th>字段名称</th>
-			<th>是否必填</th>
+			<th width="15%">是否必填</th>
 			<th>字段说明</th>
 		</tr>
 	</thead>
