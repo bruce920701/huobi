@@ -25,7 +25,7 @@
         <td>币种 1 比特币 2 莱特币</td>
     </tr>
     <tr>
-        <td>id</td>
+        <th>id</th>
         <td>必填</td>
         <td>委托订单ID</td>
     </tr>
@@ -38,6 +38,11 @@
         <th>sign</th>
         <td>必填</td>
         <td>MD5签名结果</td>
+    </tr>
+    <tr>
+        <th>market</th>
+        <td>选填</td>
+        <td>交易市场 cny:人民币交易市场，usd:美元交易市场，默认是cny(不参与MD5签名)</td>
     </tr>
     <tr>
         <th>加密实例</th>
@@ -62,7 +67,7 @@
     </tr>
     <tr>
         <th>type</th>
-        <td>1买　2卖</td>
+        <td>1限价买　2限价卖　3市价买　4市价卖</td>
     </tr>
     <tr>
         <th>order_price</th>
@@ -81,16 +86,16 @@
         <td>已经完成的数量</td>
     </tr>
     <tr>
-        <td>vot</td>
+        <th>vot</th>
         <td>交易额</td>
     </tr>
     <tr>
-        <td>fee</td>
+        <th>fee</th>
         <td>手续费</td>
     </tr>
     <tr>
-        <td>total</td>
-        <td>总交易额</td>
+        <th>total</th>
+        <td>总交易额（只有人民币交易市场才会返回）</td>
     </tr>
     <tr>
         <th>status</th>
