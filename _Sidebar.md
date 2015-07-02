@@ -19,6 +19,7 @@
 * [提币BTC/LTC](REST-withdraw_coin)<br>
 * [取消提币BTC/LTC](REST-cancel_withdraw_coin)<br>
 * [查询提币BTC/LTC](REST-get_withdraw_coin_result)<br> 
+* [账户内转账](REST-transfer)<br> 
 
 ###REST行情API
 * [分时行情图](REST-Interval)<br>
