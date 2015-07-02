@@ -62,7 +62,7 @@
     </tr>
     <tr>
         <th>type</th>
-        <td>1买 2卖</td>
+        <td>1限价买 2限价卖 3市价买 4市价卖</td>
     </tr>
     <tr>
         <th>order_price</th>
