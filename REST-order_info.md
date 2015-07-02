@@ -75,7 +75,7 @@
     </tr>
     <tr>
         <th>order_amount</th>
-        <td>委托数量</td>
+        <td>委托数量(市价买单，代表买入金额)</td>
     </tr>
     <tr>
         <th>processed_price</th>
@@ -83,7 +83,7 @@
     </tr>
     <tr>
         <th>processed_amount</th>
-        <td>已经完成的数量</td>
+        <td>已经完成的数量(市价买单，代表成交金额)</td>
     </tr>
     <tr>
         <th>vot</th>
