@@ -26,6 +26,7 @@
 * [买卖盘和实时成交数据](REST-Order-Book-and-TAS)<br>
 
 ##FIX行情交易API（V2）
+* [火币FIX API简介](FIX-v2-General)<br>
 * [会话管理](FIX-v2-Session)<br>
 * [交易接口](FIX-v2-Trading Interface)<br>
 * [行情接口](FIX-v2-Market-Data-Interface)<br>
