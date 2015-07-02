@@ -68,43 +68,11 @@
     <tbody>
     <tr>
         <th>id</th>
-        <td>委托订单id</td>
+        <td>转账记录id</td>
     </tr>
     <tr>
-        <th>type</th>
-        <td>1限价买　2限价卖　3市价买　4市价卖</td>
-    </tr>
-    <tr>
-        <th>order_price</th>
-        <td>委托价格</td>
-    </tr>
-    <tr>
-        <th>order_amount</th>
-        <td>委托数量(市价买单，代表买入金额)</td>
-    </tr>
-    <tr>
-        <th>processed_price</th>
-        <td>成交平均价格</td>
-    </tr>
-    <tr>
-        <th>processed_amount</th>
-        <td>已经完成的数量(市价买单，代表成交金额)</td>
-    </tr>
-    <tr>
-        <th>vot</th>
-        <td>交易额</td>
-    </tr>
-    <tr>
-        <th>fee</th>
-        <td>手续费</td>
-    </tr>
-    <tr>
-        <th>total</th>
-        <td>总交易额（只有人民币交易市场才会返回）</td>
-    </tr>
-    <tr>
-        <th>status</th>
-        <td>状态　0未成交　1部分成交　2已完成　3已取消</td>
+        <th>result</th>
+        <td>转账结果 成功状态 success</td>
     </tr>
     </tbody>
 </table>
