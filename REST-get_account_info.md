@@ -17,17 +17,22 @@
     <tr>
         <th>access_key</th>
         <td>必填</td>
-        <td>访问密匙</td>
+        <td>访问公匙</td>
     </tr>
     <tr>
         <th>created</th>
         <td>必填</td>
-        <td>提交时间 10位时间戳</td>
+        <td>请求时间 10位时间戳</td>
     </tr>
     <tr>
         <th>sign</th>
         <td>必填</td>
         <td>MD5签名结果</td>
+    </tr>
+    <tr>
+        <th>market</th>
+        <td>选填</td>
+        <td>交易市场 cny:人民币交易，usd:美元交易，默认是cny(不参与MD5签名)</td>
     </tr>
     <tr>
         <th>加密实例</th>
@@ -56,7 +61,7 @@
     </tr>
     <tr>
         <th>available_cny_display</th>
-        <td>可用人民币</td>
+        <td>可用人民币（美元交易返回available_usd_display）</td>
     </tr>
     <tr>
         <th>available_btc_display</th>
@@ -64,11 +69,11 @@
     </tr>
     <tr>
         <th>available_ltc_display</th>
-        <td>可用莱特币</td>
+        <td>可用莱特币（只有人民币交易才会返回）</td>
     </tr>
     <tr>
         <th>frozen_cny_display</th>
-        <td>冻结人民币</td>
+        <td>冻结人民币（美元交易返回frozen_usd_display）</td>
     </tr>
     <tr>
         <th>frozen_btc_display</th>
@@ -76,11 +81,11 @@
     </tr>
     <tr>
         <th>frozen_ltc_display</th>
-        <td>冻结莱特币</td>
+        <td>冻结莱特币（只有人民币交易才会返回）</td>
     </tr>
     <tr>
         <th>loan_cny_display</th>
-        <td>申请人民币数量</td>
+        <td>申请人民币数量（美元交易返回loan_usd_display）</td>
     </tr>
     <tr>
         <th>loan_btc_display</th>
@@ -88,7 +93,7 @@
     </tr>
     <tr>
         <th>loan_ltc_display</th>
-        <td>申请莱特币数量</td>
+        <td>申请莱特币数量（只有人民币交易才会返回）</td>
     </tr>
     </tbody>
 </table>
