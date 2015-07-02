@@ -5,7 +5,7 @@
     <tr>
         <th>字段名</th>
         <th width="12%">填写类型</th>
-        <th width="70%">描述</th>
+        <th width="50%">描述</th>
     </tr>
     </thead>
     <tbody>
