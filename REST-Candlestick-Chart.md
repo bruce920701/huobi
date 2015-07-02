@@ -1,4 +1,5 @@
 ##实时行情数据接口
+`目前只支持人民币现货`
 ###数据文件：
 [BTC] `http://api.huobi.com/staticmarket/ticker_btc_json.js`
 
