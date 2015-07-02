@@ -1,4 +1,4 @@
-##获取所有正在进行的委托 
+##获取所有正在进行的委托（当前委托） 
 ###get_orders
 <table class="table table-bordered">
     <thead>
@@ -33,6 +33,11 @@
         <th>sign</th>
         <td>必填</td>
         <td>MD5签名结果</td>
+    </tr>
+    <tr>
+        <th>market</th>
+        <td>选填</td>
+        <td>交易市场 cny:人民币交易市场，usd:美元交易市场，默认是cny(不参与MD5签名)</td>
     </tr>
     <tr>
         <th>加密实例</th>
