@@ -1,4 +1,5 @@
-##分时行情数据接口（K线）`目前只支持人民币现货`
+##分时行情数据接口（K线）
+`目前只支持人民币现货`
 ###数据文件：
 [BTC] `http://api.huobi.com/staticmarket/btc_kline_[period]_json.js`
 
