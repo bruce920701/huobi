@@ -30,8 +30,8 @@
 * [会话管理](FIX-v2-Session)<br>
 * [交易接口](FIX-v2-Trading Interface)<br>
 * [行情接口](FIX-v2-Market-Data-Interface)<br>
+* [异常返回消息](FIX-v2-Reject)<br>
 * [API参考实例](FIX-v2-API-instances)<br>
-
 ##WebSocket行情API
 * [引言](WebSocket-General)<br>
 * [行情API使用说明](WebSocket-Market-API-introduction)<br>
