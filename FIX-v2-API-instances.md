@@ -1,26 +1,15 @@
-##4. 异常返回消息Reject(msgtype=3)
-acceptor端出现任何异常都返回该类型的消息
-<table class="table table-bordered">
-	<thead>
-		<tr>
-			<th>消息名称</th>
-			<th>字段名称</th>
-			<th>是否必填</th>
-			<th>字段说明</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th rowspan="2">Reject(msgtype=3)</th>
-			<th>RefSeqNum</th>
-			<td>Y</td>
-			<td>quickfix框架中发送消息的编号，自动生成</td>
-		</tr>
-		<tr>
-			<th>Text</th>
-			<td>Y</td>
-			<td>异常内容</td>
-		</tr>
-	</tbody>
-</table>
+###API参考实例
 
+####FIX服务地址（开发及试用服务器，专用通道及SSL证书请单独找客服申请）
+
+FIX-行情：`106.38.234.75:5000`
+
+FIX-交易：`106.38.234.75:5001`
+
+####火币FixCA证书，客户端SSL-秘钥，火币Fix协议
+
+[下载地址](https://news.huobi.com/download/huobifix_pack.zip)
+
+####火币QuickFixJ客户端实例
+
+[下载地址](https://news.huobi.com/download/huobi_quickfixj_client_demo.zip)
