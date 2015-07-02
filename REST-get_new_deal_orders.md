@@ -40,6 +40,11 @@
             md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&amp;coin_type=1&amp;created=1386844119&amp;method=get_new_deal_orders&amp;secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx)
         </td>
     </tr>
+    <tr>
+        <th>market</th>
+        <td>选填</td>
+        <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)</td>
+    </tr>
     </tbody>
 </table>
 ####返回结果
