@@ -1,4 +1,5 @@
 ##买卖盘实时成交数据
+`目前只支持人民币现货`
 ###数据文件：
 [BTC] `http://api.huobi.com/staticmarket/detail_btc_json.js`
 
