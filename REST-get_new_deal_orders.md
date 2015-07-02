@@ -74,7 +74,7 @@
     </tr>
     <tr>
         <th>processed_amount</th>
-        <td>已经完成的数量</td>
+        <td>已经完成的数量（市价买单，代表成交金额）</td>
     </tr>
     <tr>
         <th>last_processed_time</th>
