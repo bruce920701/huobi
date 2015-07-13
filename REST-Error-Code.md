@@ -7,7 +7,7 @@
     <thead>
     <tr>
         <th>code</th>
-        <th>msg</th>
+        <th>message(为了兼容apiv2,同时返回msg)</th>
     </tr>
     </thead>
     <tbody>
