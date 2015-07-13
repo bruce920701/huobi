@@ -7,7 +7,7 @@
     <thead>
     <tr>
         <th>code</th>
-        <th>message/msg</th>
+        <th>msg/message</th>
     </tr>
     </thead>
     <tbody>
