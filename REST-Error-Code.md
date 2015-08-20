@@ -2,7 +2,30 @@
 `生成sign时，参与加密的参数按照a-z排序`
 
 所有 API 方法调用在请求失败或遇到未知错误时会返回相关错误的JSON格式。
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>字段名</th>
+        <th>描述</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>code</th>
+        <td>错误代码</td>
+    </tr>
+    <tr>
+        <th>message</th>
+        <td>错误消息内容</td>
+    </tr>
+    <tr>
+        <th>msg</th>
+        <td>错误消息内容（兼容旧版本）</td>
+    </tr>
+    </tbody>
+</table>
 
+code代码含义如下：
 <table class="table table-bordered">
     <thead>
     <tr>
