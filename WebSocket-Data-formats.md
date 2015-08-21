@@ -42,7 +42,7 @@
 		<tr>
 			<th>symbolIdList</th>
 			<td>可选</td>
-			<td>[btccny,ltccny]</td>
+			<td>[btccny,ltccny,btcusd]</td>
 			<td>交易代码列表，零到多个交易编码。如果为空，则返回所有的交易编码</td>
 		</tr>
 	</tbody>
@@ -139,7 +139,7 @@
 		<tr>
 			<th>symbolIdList</th>
 			<td>必选</td>
-			<td>[btccny,ltccny]</td>
+			<td>[btccny,ltccny,btcusd]</td>
 			<td>交易代码列表，1个到多个交易编码</td>
 		</tr>
 	</tbody>
