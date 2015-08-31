@@ -1,9 +1,11 @@
 ##买卖盘实时成交数据
 `目前只支持人民币现货`
 ###数据文件：
-[BTC] `http://api.huobi.com/staticmarket/detail_btc_json.js`
+[BTC-CNY] `http://api.huobi.com/staticmarket/detail_btc_json.js`
 
-[LTC] `http://api.huobi.com/staticmarket/detail_ltc_json.js`
+[LTC-CNY] `http://api.huobi.com/staticmarket/detail_ltc_json.js`
+
+[BTC-USD] `http://api.huobi.com/usdmarket/detail_btc_json.js`
 
 ###数据格式:(json)：
 ```javascript
