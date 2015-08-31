@@ -1,9 +1,11 @@
 ##分时行情数据接口（K线）
 `目前只支持人民币现货`
 ###数据文件：
-[BTC] `http://api.huobi.com/staticmarket/btc_kline_[period]_json.js`
+[BTC-CYN] `http://api.huobi.com/staticmarket/btc_kline_[period]_json.js`
 
-[LTC] `http://api.huobi.com/staticmarket/ltc_kline_[period]_json.js`
+[LTC-CNY] `http://api.huobi.com/staticmarket/ltc_kline_[period]_json.js`
+
+[BTC-USD] `http://api.huobi.com/usdmarket/btc_kline_[period]_json.js`
 
 <table class="table table-bordered">
     <thead>
