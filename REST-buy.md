@@ -53,17 +53,17 @@
     <tr>
         <th>trade_password</th>
         <td>选填</td>
-        <td>此项不参与sign签名过程，如果开启下单时输入资金密码，必须传此参数</td>
+        <td>如果开启下单时输入资金密码，必须传此参数<br>此项不参与sign签名过程</td>
     </tr>
     <tr>
         <th>trade_id</th>
         <td>选填</td>
-        <td>此项不参与sign签名过程，用户自定义订单号为数字(最多15位，唯一值)</td>
+        <td>用户自定义订单号为数字(最多15位，唯一值)<br>此项不参与sign签名过程</td>
     </tr>
     <tr>
         <th>market</th>
         <td>选填</td>
-        <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)</td>
+        <td>交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)<br>此项不参与sign签名过程</td>
     </tr>
     </tbody>
 </table>
