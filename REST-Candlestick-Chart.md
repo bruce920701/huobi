@@ -1,9 +1,11 @@
 ##实时行情数据接口
 `目前只支持人民币现货`
 ###数据文件：
-[BTC] `http://api.huobi.com/staticmarket/ticker_btc_json.js`
+[BTC-CNY] `http://api.huobi.com/staticmarket/ticker_btc_json.js`
 
-[LTC] `http://api.huobi.com/staticmarket/ticker_ltc_json.js`
+[LTC-CNY] `http://api.huobi.com/staticmarket/ticker_ltc_json.js`
+
+[BTC-USD] `http://api.huobi.com/usdmarket/ticker_btc_json.js`
 
 ###数据格式:
 ```javascript
