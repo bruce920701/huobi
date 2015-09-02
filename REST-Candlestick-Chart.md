@@ -14,15 +14,19 @@
 
 ##深度数据接口（json格式）
 ###数据文件
-[BTC] `http://api.huobi.com/staticmarket/depth_btc_json.js`
+[BTC-CNY] `http://api.huobi.com/staticmarket/depth_btc_json.js`
 
-[LTC] `http://api.huobi.com/staticmarket/depth_ltc_json.js`
+[LTC-CNY] `http://api.huobi.com/staticmarket/depth_ltc_json.js`
+
+[BTC-USD] `http://api.huobi.com/usdmarket/depth_btc_json.js`
 
 指定深度数据条数（1-150条） 
 
-[BTC] `http://api.huobi.com/staticmarket/depth_btc_X.js`
+[BTC-CNY] `http://api.huobi.com/staticmarket/depth_btc_X.js`
 
-[LTC] `http://api.huobi.com/staticmarket/depth_ltc_X.js`
+[LTC-CNY] `http://api.huobi.com/staticmarket/depth_ltc_X.js`
+
+[BTC-USD] `http://api.huobi.com/usdmarket/depth_btc_X.js`
 
 X表示返回多少条深度数据，可取值 1-150
 
