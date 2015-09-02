@@ -55,8 +55,8 @@
     	<th>例如</th>
         <td>
             [BTC-CNY] http://api.huobi.com/staticmarket/btc_kline_005_json.js<br>
-            [LTC-LTC] http://api.huobi.com/staticmarket/ltc_kline_005_json.js
-            [BTC-USD] http://api.huobi.com/usdmarket/btc_kline_005_json.js<br>
+            [LTC-LTC] http://api.huobi.com/staticmarket/ltc_kline_005_json.js<br>
+            [BTC-USD] http://api.huobi.com/usdmarket/btc_kline_005_json.js
         </td>
     </tr>
     </tbody>
