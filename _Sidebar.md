@@ -26,7 +26,7 @@
 * [实时行情图](REST-Candlestick-Chart)<br>
 * [买卖盘和实时成交数据](REST-Order-Book-and-TAS)<br>
 
-##FIX行情交易API（V2）（仅支持人民币行情）
+##FIX行情交易API（V2）(只支持人民币现货交易)
 * [火币FIX API简介](FIX-v2-General)<br>
 * [会话管理](FIX-v2-Session)<br>
 * [交易接口](FIX-v2-Trading Interface)<br>
