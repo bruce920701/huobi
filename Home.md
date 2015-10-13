@@ -19,6 +19,8 @@
 * 提币BTC/LTC [`withdraw_coin`](REST-withdraw_coin)<br>
 * 取消提币BTC/LTC [`cancel_withdraw_coin`](REST-cancel_withdraw_coin)<br>
 * 查询提币BTC/LTC [`get_withdraw_coin_result`](REST-get_withdraw_coin_result)<br> 
+* 借贷 [`loan`](REST-loan)<br>
+* 还贷 [`repayment`](REST-repayment)<br>
 
 ###REST行情API
 * 分时行情图 [`Interval`](REST-Interval)<br>
