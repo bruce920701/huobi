@@ -1,5 +1,5 @@
 ##分时行情数据接口（K线）
-`目前只支持人民币现货`
+`目前只支持人民币现货、美元现货`
 ###数据文件：
 [BTC-CNY] `http://api.huobi.com/staticmarket/btc_kline_[period]_json.js`
 
