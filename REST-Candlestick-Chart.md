@@ -11,7 +11,7 @@
 ```javascript
 {"ticker":{"high":86.48,"low":79.75,"last":83.9,"vol":2239560.1752883,"buy":83.88,"sell":83.9}}
 ```
-
+报价：最高价，最低价，当前价，成交量，买1，卖1
 ##深度数据接口（json格式）
 ###数据文件
 [BTC-CNY] `http://api.huobi.com/staticmarket/depth_btc_json.js`
