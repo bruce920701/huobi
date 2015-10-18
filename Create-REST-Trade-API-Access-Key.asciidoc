@@ -1,0 +1,1 @@
+登录火币网后访问 https://www.huobi.com/account/account.php?a=apikeys 按页面上的提示来获取即可。
