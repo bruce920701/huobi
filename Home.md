@@ -3,6 +3,7 @@
 * 请求过程 [`Trade-API-Method`](REST-Trade-API-Method)<br>
 * 代码示例 [`Code-Instance`](REST-Code-Instance)<br>
 * 错误代码 [`Error-Code`](REST-Error-Code)<br>
+* 获取访问密钥 [`Create-Access-Key`](Create-REST-Trade-API-Access-Key)<br>
 
 ###REST交易API
 * 获取个人资产信息 [`get_account_info`](REST-get_account_info)<br>
