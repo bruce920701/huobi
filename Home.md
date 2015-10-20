@@ -22,6 +22,8 @@
 * 查询提币BTC/LTC [`get_withdraw_coin_result`](REST-get_withdraw_coin_result)<br> 
 * 借贷 [`loan`](REST-loan)<br>
 * 还贷 [`repayment`](REST-repayment)<br>
+* 查询可申请杠杆额度 [`get_loan_available`](REST-get_loan_available)<br>
+* 查询杠杆列表 [`get_loans`](REST-get_loans)<br>
 
 ###REST行情API
 * 分时行情图 [`Interval`](REST-Interval)<br>
