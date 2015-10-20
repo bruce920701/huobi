@@ -108,19 +108,19 @@
 #####例：
 ``` javascript
 [{
-    "id":"1"			// 杠杆id
-    "type":"2"			// 杠杆类型：1 人民币 2     比特币 3 莱特币 4 美元
-    "status":"0"		// 杠杆状态：0 未还清 1     部分归还 2 已还清
-    "loan_amount":"229.33"			//     申请的杠杆额度
-    	"repayment_amount":"370.73"	//     已归还的杠杆额度
-    "interest_rate":"0.00045"		// 杠杆费率
-    "interest_nopay":"0.00"		// 未归还杠杆手续费
-    "interest_payed":"0.00"		// 已归还杠杆手续费
-    "interest_time":1444703886		// 计息时间
-    "apply_time":1444703886		// 申请杠杆时间
-    "last_processed_time":1444703886	//     最后处理时间
-    "free_interest":"0.00"			// 免息额度
-    "free_end_time":0				// 免息结束时间
+    "id":"1",
+    "type":"2",
+    "status":"0",
+    "loan_amount":"229.33",
+    "repayment_amount":"370.73",
+    "interest_rate":"0.00045",
+    "interest_nopay":"0.00",
+    "interest_payed":"0.00",
+    "interest_time":1444703886,
+    "apply_time":1444703886,
+    "last_processed_time":1444703886,
+    "free_interest":"0.00",
+    "free_end_time":0
 },
 {…}
 ]
