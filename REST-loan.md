@@ -1,4 +1,4 @@
-##借贷 
+##申请杠杆 
 ###loan
 <table class="table table-bordered">
     <thead>
@@ -22,12 +22,12 @@
     <tr>
         <th>amount</th>
         <td>必填</td>
-        <td>借贷数量</td>
+        <td>申请杠杆数量</td>
     </tr>
     <tr>
         <th>loan_type</th>
         <td>必填</td>
-        <td>借贷类型：1 人民币 2 比特币 3 莱特币</td>
+        <td>申请杠杆类型：1 人民币 2 比特币 3 莱特币</td>
     </tr>
     <tr>
         <th>created</th>
@@ -54,6 +54,7 @@
     </tbody>
 </table>
 ####返回结果
+#####成功
 <table class="table table-bordered">
     <thead>
     <tr>
@@ -64,7 +65,7 @@
     <tbody>
     <tr>
         <th>id</th>
-        <td>借贷记录id</td>
+        <td>申请杠杆记录id</td>
     </tr>
     <tr>
         <th>result</th>
@@ -72,3 +73,42 @@
     </tr>
     </tbody>
 </table>
+#####例：
+```javascript
+{
+        “id”:”1234”,
+	“result”:”success”
+}
+```
+#####失败
+#####失败
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>字段名</th>
+        <th>描述</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>code</th>
+        <td>错误代码</td>
+    </tr>
+    <tr>
+        <th>msg</th>
+        <td>错误消息内容（兼容旧版本）</td>
+    </tr>
+    <tr>
+        <th>message</th>
+        <td>错误消息内容</td>
+    </tr>
+    </tbody>
+</table>
+#####例：
+```javascript
+{
+	“code”:xxx,
+	“message”:”xxx”,
+	“msg”:”xxx”
+}
+```
