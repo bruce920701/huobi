@@ -20,6 +20,10 @@
 * [取消提币BTC/LTC](REST-cancel_withdraw_coin)<br>
 * [查询提币BTC/LTC](REST-get_withdraw_coin_result)<br> 
 * [账户内转账](REST-transfer)<br> 
+* [借贷](REST-loan)<br>
+* [还贷](REST-repayment)<br>
+* [查询可申请杠杆额度](REST-get_loan_available)<br>
+* [查询杠杆列表](REST-get_loans)<br>
 
 ###REST行情API
 * [分时行情图](REST-Interval)<br>
