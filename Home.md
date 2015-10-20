@@ -20,8 +20,8 @@
 * 提币BTC/LTC [`withdraw_coin`](REST-withdraw_coin)<br>
 * 取消提币BTC/LTC [`cancel_withdraw_coin`](REST-cancel_withdraw_coin)<br>
 * 查询提币BTC/LTC [`get_withdraw_coin_result`](REST-get_withdraw_coin_result)<br> 
-* 借贷 [`loan`](REST-loan)<br>
-* 还贷 [`repayment`](REST-repayment)<br>
+* 申请杠杆 [`loan`](REST-loan)<br>
+* 归还杠杆 [`repayment`](REST-repayment)<br>
 * 查询可申请杠杆额度 [`get_loan_available`](REST-get_loan_available)<br>
 * 查询杠杆列表 [`get_loans`](REST-get_loans)<br>
 
