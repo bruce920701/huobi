@@ -104,18 +104,18 @@
 #####例：
 ``` javascript
 {
-    "cny_net_asset":"229.33"			//     人民币净资产(market为cny时返回)
-    "btc_net_asset":"0.9970"			// 比特币净资产
-    "ltc_net_asset":"0.9970"			// 莱特币净资产
-    "usd_net_asset":"229.33"			//     美元净资产(market为usd时返回)
-    	"loaned_cny":"370.73"				//     已申请的人民币(market为cny时返回)
-    "loaned_btc":"0.3823"				// 已申请的比特币
-    "loaned_ltc":"0.3823"				// 已申请的莱特币
-    "loaned_usd":"370.73"				//     已申请的美元(market为usd时返回)
-    "can_loan_cny":"370.73"			//     可申请的人民币(market为cny时返回)
-    "can_loan_btc":"1.6118"			// 可申请的比特币
-    "can_loan_ltc":"1.6118"			// 可申请的莱特币
-    "can_loan_usd":"370.73"			// 可申请的美元(market为usd时返回)
+    "cny_net_asset":"229.33",
+    "btc_net_asset":"0.9970",
+    "ltc_net_asset":"0.9970",
+    "usd_net_asset":"229.33",
+    "loaned_cny":"370.73",
+    "loaned_btc":"0.3823",
+    "loaned_ltc":"0.3823",
+    "loaned_usd":"370.73",
+    "can_loan_cny":"370.73",
+    "can_loan_btc":"1.6118",
+    "can_loan_ltc":"1.6118",
+    "can_loan_usd":"370.73"
 }
 ```
 #####失败
