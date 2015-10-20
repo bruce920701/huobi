@@ -31,7 +31,7 @@
     </tr>
     <tr>
         <th>加密实例</th>
-        <td colspan="2">sign=md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&created=1386844119&method=repayment&secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx)
+        <td colspan="2">sign=md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&created=1386844119&method=get_loan_available&secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx)
         </td>
     </tr>
     <tr>
