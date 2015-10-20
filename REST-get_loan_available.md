@@ -1,0 +1,152 @@
+##查询可申请杠杆额度
+###get_loan_available
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>字段名</th>
+        <th>填写类型</th>
+        <th>描述</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>method</th>
+        <td>必填</td>
+        <td>请求的方法 get_loan_available</td>
+    </tr>
+    <tr>
+        <th>access_key</th>
+        <td>必填</td>
+        <td>访问公匙</td>
+    </tr>
+    <tr>
+        <th>created</th>
+        <td>必填</td>
+        <td>请求时间 10位时间戳</td>
+    </tr>
+    <tr>
+        <th>sign</th>
+        <td>必填</td>
+        <td>MD5签名结果</td>
+    </tr>
+    <tr>
+        <th>加密实例</th>
+        <td colspan="2">sign=md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&created=1386844119&method=repayment&secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx)
+        </td>
+    </tr>
+    <tr>
+        <th>market</th>
+        <td>选填</td>
+        <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)</td>
+    </tr>
+    </tbody>
+</table>
+####返回结果
+#####成功
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>字段名</th>
+        <th>描述</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>cny_net_asset</th>
+        <td>人民币净资产(market为cny时返回)</td>
+    </tr>
+    <tr>
+        <th>btc_net_asset</th>
+        <td>比特币净资产</td>
+    </tr>
+    <tr>
+        <th>ltc_net_asset</th>
+        <td>莱特币净资产</td>
+    </tr>
+    <tr>
+        <th>usd_net_asset</th>
+        <td>美元净资产(market为usd时返回)</td>
+    </tr>
+    <tr>
+        <th>loaned_cny</th>
+        <td>已申请的人民币(market为cny时返回)</td>
+    </tr>
+    <tr>
+        <th>loaned_btc</th>
+        <td>已申请的比特币</td>
+    </tr>
+    <tr>
+        <th>loaned_ltc</th>
+        <td>已申请的莱特币</td>
+    </tr>
+    <tr>
+        <th>loaned_usd</th>
+        <td>已申请的美元(market为usd时返回)</td>
+    </tr>
+    <tr>
+        <th>can_loan_cny</th>
+        <td>可申请的人民币(market为cny时返回)</td>
+    </tr>
+    <tr>
+        <th>can_loan_btc</th>
+        <td>可申请的比特币</td>
+    </tr>
+    <tr>
+        <th>can_loan_ltc</th>
+        <td>可申请的莱特币</td>
+    </tr>
+    <tr>
+        <th>can_loan_usd</th>
+        <td>可申请的美元(market为usd时返回)</td>
+    </tr>
+    </tbody>
+</table>
+#####例：
+``` javascript
+{
+    "cny_net_asset":"229.33"			//     人民币净资产(market为cny时返回)
+    "btc_net_asset":"0.9970"			// 比特币净资产
+    "ltc_net_asset":"0.9970"			// 莱特币净资产
+    "usd_net_asset":"229.33"			//     美元净资产(market为usd时返回)
+    	"loaned_cny":"370.73"				//     已申请的人民币(market为cny时返回)
+    "loaned_btc":"0.3823"				// 已申请的比特币
+    "loaned_ltc":"0.3823"				// 已申请的莱特币
+    "loaned_usd":"370.73"				//     已申请的美元(market为usd时返回)
+    "can_loan_cny":"370.73"			//     可申请的人民币(market为cny时返回)
+    "can_loan_btc":"1.6118"			// 可申请的比特币
+    "can_loan_ltc":"1.6118"			// 可申请的莱特币
+    "can_loan_usd":"370.73"			// 可申请的美元(market为usd时返回)
+}
+```
+#####失败
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>字段名</th>
+        <th>描述</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>code</th>
+        <td>错误代码</td>
+    </tr>
+    <tr>
+        <th>msg</th>
+        <td>错误消息内容（兼容旧版本）</td>
+    </tr>
+    <tr>
+        <th>message</th>
+        <td>错误消息内容</td>
+    </tr>
+    </tbody>
+</table>
+#####例：
+```javascript
+{
+	“code”:xxx,
+	“message”:”xxx”,
+	“msg”:”xxx”
+}
+
+```
