@@ -1,0 +1,160 @@
+##查询杠杆列表
+###get_loans
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>字段名</th>
+        <th>填写类型</th>
+        <th>描述</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>method</th>
+        <td>必填</td>
+        <td>请求的方法 get_loans</td>
+    </tr>
+    <tr>
+        <th>access_key</th>
+        <td>必填</td>
+        <td>访问公匙</td>
+    </tr>
+    <tr>
+        <th>created</th>
+        <td>必填</td>
+        <td>请求时间 10位时间戳</td>
+    </tr>
+    <tr>
+        <th>sign</th>
+        <td>必填</td>
+        <td>MD5签名结果</td>
+    </tr>
+    <tr>
+        <th>加密实例</th>
+        <td colspan="2">sign=md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&created=1386844119&method=get_loans&secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx)
+        </td>
+    </tr>
+    <tr>
+        <th>market</th>
+        <td>选填</td>
+        <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)</td>
+    </tr>
+    </tbody>
+</table>
+####返回结果
+#####成功
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>字段名</th>
+        <th>描述</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>id</th>
+        <td>杠杆id</td>
+    </tr>
+    <tr>
+        <th>type</th>
+        <td>杠杆类型：1 人民币 2 比特币 3 莱特币 4 美元</td>
+    </tr>
+    <tr>
+        <th>status</th>
+        <td>杠杆状态：0 未还清 1 部分归还 2 已还清</td>
+    </tr>
+    <tr>
+        <th>loan_amount</th>
+        <td>申请的杠杆额度</td>
+    </tr>
+    <tr>
+        <th>repayment_amount</th>
+        <td>已归还的杠杆额度</td>
+    </tr>
+    <tr>
+        <th>interest_rate</th>
+        <td>杠杆费率</td>
+    </tr>
+    <tr>
+        <th>interest_nopay</th>
+        <td>未归还杠杆手续费</td>
+    </tr>
+    <tr>
+        <th>interest_payed</th>
+        <td>已归还杠杆手续费</td>
+    </tr>
+    <tr>
+        <th>interest_time</th>
+        <td>计息时间</td>
+    </tr>
+    <tr>
+        <th>apply_time</th>
+        <td>申请杠杆时间</td>
+    </tr>
+    <tr>
+        <th>last_processed_time</th>
+        <td>最后处理时间</td>
+    </tr>
+    <tr>
+        <th>free_interest</th>
+        <td>免息额度</td>
+    </tr>
+    <tr>
+        <th>free_end_time</th>
+        <td>免息结束时间</td>
+    </tr>
+    </tbody>
+</table>
+#####例：
+``` javascript
+[{
+    "id":"1"			// 杠杆id
+    "type":"2"			// 杠杆类型：1 人民币 2     比特币 3 莱特币 4 美元
+    "status":"0"		// 杠杆状态：0 未还清 1     部分归还 2 已还清
+    "loan_amount":"229.33"			//     申请的杠杆额度
+    	"repayment_amount":"370.73"	//     已归还的杠杆额度
+    "interest_rate":"0.00045"		// 杠杆费率
+    "interest_nopay":"0.00"		// 未归还杠杆手续费
+    "interest_payed":"0.00"		// 已归还杠杆手续费
+    "interest_time":1444703886		// 计息时间
+    "apply_time":1444703886		// 申请杠杆时间
+    "last_processed_time":1444703886	//     最后处理时间
+    "free_interest":"0.00"			// 免息额度
+    "free_end_time":0				// 免息结束时间
+},
+{…}
+]
+
+```
+#####失败
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>字段名</th>
+        <th>描述</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>code</th>
+        <td>错误代码</td>
+    </tr>
+    <tr>
+        <th>msg</th>
+        <td>错误消息内容（兼容旧版本）</td>
+    </tr>
+    <tr>
+        <th>message</th>
+        <td>错误消息内容</td>
+    </tr>
+    </tbody>
+</table>
+#####例：
+```javascript
+{
+	“code”:xxx,
+	“message”:”xxx”,
+	“msg”:”xxx”
+}
+
+```
