@@ -1,5 +1,6 @@
 ##查询个人最新10条成交订单 
 ###get_new_deal_orders
+####暂不支持美元交易
 <table class="table table-bordered">
     <thead>
     <tr>
