@@ -27,7 +27,7 @@
     <tr>
         <th>amount</th>
         <td>必填</td>
-        <td>买入金额</td>
+        <td>买入数量</td>
     </tr>
     <tr>
         <th>created</th>
