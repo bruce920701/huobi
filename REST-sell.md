@@ -27,63 +27,14 @@
     <tr>
         <th>price</th>
         <td>必填</td>
-        <td>买入价格</td>
+        <td>卖出价格</td>
     </tr>
     <tr>
         <th>amount</th>
         <td>必填</td>
-        <td>买入数量</td>
+        <td>卖出数量</td>
     </tr>
     <tr>
         <th>created</th>
         <td>必填</td>
-        <td>提交时间 10位时间戳</td>
-    </tr>
-    <tr>
-        <th>sign</th>
-        <td>必填</td>
-        <td>MD5签名结果</td>
-    </tr>
-    <tr>
-        <th>加密实例</th>
-        <td colspan="2">sign =
-            md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&amp;amount=10&amp;coin_type=1&amp;created=1386844119&amp;method=sell&amp;price=5000&amp;secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx)
-        </td>
-    </tr>
-    <tr>
-        <th>trade_password</th>
-        <td>选填</td>
-        <td>此项不参与sign签名过程，如果开启下单时输入资金密码，必须传此参数</td>
-    </tr>
-    <tr>
-        <th>trade_id</th>
-        <td>选填</td>
-        <td>此项不参与sign签名过程，用户自定义订单号为数字(最多15位，唯一值)</td>
-    </tr>
-    <tr>
-        <th>market</th>
-        <td>选填</td>
-        <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)</td>
-    </tr>
-    </tbody>
-</table>
-####返回结果
-<table class="table table-bordered">
-    <thead>
-    <tr>
-        <th>字段名</th>
-        <th>描述</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <th>result</th>
-        <td>成功状态 success</td>
-    </tr>
-    <tr>
-        <th>id</th>
-        <td>委托id</td>
-    </tr>
-    </tbody>
-</table>
-
+        <td
