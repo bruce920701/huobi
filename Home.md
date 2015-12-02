@@ -14,7 +14,6 @@
 * 买入(市价单) [`buy_market`](REST-buy_market)<br>
 * 卖出(市价单) [`sell_market`](REST-sell_market)<br>
 * 取消委托单 [`cancel_order`](REST-cancel_order)<br>
-* 修改订单 [`modify_order`](REST-modify_order)<br>
 * 查询个人最新10条成交订单 [`get_new_deal_orders`](REST-get_new_deal_orders)<br>
 * 根据trade_id查询oder_id [`get_order_id_by_trade_id`](REST-get_order_id_by_trade_id)<br>
 * 提币BTC/LTC [`withdraw_coin`](REST-withdraw_coin)<br>
