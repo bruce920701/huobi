@@ -27,7 +27,7 @@
     <tr>
         <th>loan_type</th>
         <td>必填</td>
-        <td>申请杠杆类型：1 人民币 2 比特币 3 莱特币</td>
+        <td>申请杠杆类型：1 人民币 2 比特币 3 莱特币 4美元</td>
     </tr>
     <tr>
         <th>created</th>
