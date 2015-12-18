@@ -52,11 +52,6 @@
         <td>是否归还全部：0 否 1是 默认是0 此项不参与sign签名过程</td>
     </tr>
     <tr>
-        <th>repay_type</th>
-        <td>选填</td>
-        <td>归还类型：1 用户 2系统 默认是1 此项不参与sign签名过程</td>
-    </tr>
-    <tr>
         <th>market</th>
         <td>选填</td>
         <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)</td>
