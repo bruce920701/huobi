@@ -35,6 +35,11 @@
         <td>转账数量</td>
     </tr>
     <tr>
+        <th>coin_type</th>
+        <td>必填</td>
+        <td>币种 1 比特币（默认）， 不参与签名</td>
+    </tr>
+    <tr>
         <th>created</th>
         <td>必填</td>
         <td>提交时间 10位时间戳</td>
@@ -47,13 +52,8 @@
     <tr>
         <th>加密实例</th>
         <td colspan="2">sign =
-            md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&amp;account_from=1&amp;account_to=1&amp;amount=xxxxxx&amp;created=1386844119&amp;method=transfer&amp;secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx)
+            md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&amp;account_from=1&amp;account_to=1&amp;amount=xxxxxx&amp;&amp;coin_type=1&amp;created=1386844119&amp;method=transfer&amp;secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx)
         </td>
-    </tr>
-    <tr>
-        <th>coin_type</th>
-        <td>必填</td>
-        <td>币种 1 比特币（默认）， 不参与签名</td>
     </tr>
     </tbody>
 </table>
