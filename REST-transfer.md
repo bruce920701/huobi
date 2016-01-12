@@ -37,7 +37,7 @@
     <tr>
         <th>coin_type</th>
         <td>必填</td>
-        <td>币种 1 比特币（默认）， 不参与签名</td>
+        <td>币种 1 比特币（默认）</td>
     </tr>
     <tr>
         <th>created</th>
