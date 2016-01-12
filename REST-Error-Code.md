@@ -148,7 +148,7 @@ code代码含义如下：
     </tr>
     <tr>
         <th>62</th>
-        <td>您的IP地址:{XXX}是不受信任的</td>
+        <td>您的IP地址:{XXX.XXX.XXX.XXX}是不受信任的</td>
     </tr>
     <tr>
         <th>63</th>
