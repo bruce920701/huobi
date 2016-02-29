@@ -23,6 +23,7 @@
   top_sell: Object //卖5 
   total: 273542407.24361 //总量（人民币） 
   trades: Array[15] //实时成交
+  symbol:"btccny" //类型
 }
 ```
 
