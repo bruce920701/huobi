@@ -50,6 +50,11 @@
         </td>
     </tr>
     <tr>
+        <th>trade_password</th>
+        <td>必填</td>
+        <td>资金密码，提币必须输入此参数，此项不参与sign签名过程</td>
+    </tr>
+    <tr>
         <th>market</th>
         <td>选填</td>
         <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)</td>
