@@ -51,8 +51,8 @@
     </tr>
     <tr>
         <th>trade_password</th>
-        <td>必填</td>
-        <td>资金密码，提币必须输入此参数，此项不参与sign签名过程</td>
+        <td>选填</td>
+        <td>此项不参与sign签名过程,资金密码，因涉及安全验证，提币必须输入此参数才能成功</td>
     </tr>
     <tr>
         <th>market</th>
