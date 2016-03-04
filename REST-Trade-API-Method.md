@@ -15,7 +15,7 @@
 
 8. 签名MD5必须是小写字母。
 
-9. 限制频率（每个key每个接口）：withdraw_coin,get_orders,get_new_deal_orders三个接口访问频率限制为1分钟10次，其余接口限制为10秒10次
+9. 限制频率（每个key每个接口，只针对交易api，行情api不限制）：withdraw_coin,get_orders,get_new_deal_orders三个接口访问频率限制为1分钟10次，其余接口限制为10秒10次
  
 签名时的字符一律采用UTF-8编码。MD5散列后每个byte采用两个16进制小写字母高位在前低位在后表示。如 
 ```code
