@@ -9,5 +9,3 @@ FIX-交易：`106.38.234.75:5001`
 ####火币QuickFixJ客户端实例
 
 [Demo地址](https://github.com/huobiapi/demo-fix-java)
-
-<p style="visibility: hidden"><span>[原下载地址](https://news.huobi.com/download/huobi_quickfixj_client_demo.zip)</span> </p>
