@@ -3,7 +3,7 @@
 
 2. 通过POST方式提交交易请求。
 
-3. `请求头信息中必须声明 Content-Type:application/x-www-form-urlencoded`
+3. 请求头信息中必须声明 Content-Type:application/x-www-form-urlencoded`
 
 4. 火币网处理请求，并返回相应的JSON格式结果。
 
