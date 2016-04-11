@@ -1,5 +1,4 @@
 ## 错误代码
-`生成sign时，参与加密的参数按照a-z排序`
 
 所有 API 方法调用在请求失败或遇到未知错误时会返回相关错误的JSON格式。
 <table class="table table-bordered">
