@@ -13,7 +13,7 @@
 
 7. 火币网API类似表单提交
 
-8. 签名MD5必须是小写字母。
+8. 生成sign时，参与加密的参数按照a-z排序，签名MD5必须是小写字母。
 
 9. 限制频率（每个key每个接口，只针对交易api，行情api不限制）：withdraw_coin,get_orders,get_new_deal_orders三个接口访问频率限制为1分钟10次，其余接口限制为10秒10次
  
