@@ -57,7 +57,7 @@
     <tr>
         <th>market</th>
         <td>选填</td>
-        <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，usd:美元交易市场，默认是cny)</td>
+        <td>此项不参与sign签名过程，交易市场(cny:人民币交易市场，暂不支持美元市场)</td>
     </tr>
     </tbody>
 </table>
