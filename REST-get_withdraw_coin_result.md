@@ -36,7 +36,7 @@
     </tr>
     <tr>
         <th>加密实例</th>
-        <td colspan="2" style="word-break: break-all;">sign = md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&amp;coin_type=1&amp;created=1386844119&amp;method=get_withdraw_coin_result&amp;secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&amp;withdraw_coin_id=123)
+        <td colspan="2" style="word-break: break-all;">sign = md5(access_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&amp;created=1386844119&amp;method=get_withdraw_coin_result&amp;secret_key=xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx&amp;withdraw_coin_id=123)
         </td>
     </tr>
     <tr>
