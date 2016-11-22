@@ -61,6 +61,30 @@
     </tr>
     </tbody>
 </table>
+
+
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th width='25%'>length参数</th>
+        <th>说明</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>1~2000</th>
+        <td>返回1~2000条数据，如果不传该参数默认为300条</td>
+    </tr>
+    <tr>
+    	<th>例如</th>
+        <td>
+            [BTC-CNY] http://api.huobi.com/staticmarket/btc_kline_005_json.js?length=500<br>
+
+        </td>
+    </tr>
+    </tbody>
+</table>
+
 ###数据格式:（json）
 ```javascript
 [["20140417095000000",3297,3305,3290,3303,386.3926],...]
