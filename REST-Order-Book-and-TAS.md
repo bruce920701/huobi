@@ -14,7 +14,7 @@
   level: 86.999 //涨幅
   buys: Array[10] //买10
   p_high: 4410 //最高
-  p_last: 4275 &nbsp;//收盘价
+  p_last: 4275 //收盘价
   p_low: 4250 //最低
   p_new: 4362 //最新
   p_open: 4275 //开盘
