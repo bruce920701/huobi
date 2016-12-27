@@ -39,7 +39,7 @@ Socket.IO实时行情接口分为三类：第一类服务能力接口，第二�
 ###2.2 接口常量定义
 
 	接口中各个字段的定义请参见《火币行情服务器-开放接口设计.xlsx》中的《常量、JSON字段定义》，其中包含JSON字段定义，消息名称，错误代码，以及其他一些可能用到的常量。
-	[下载地址](https://news.huobi.com/download/socket_doc.zip)
+	下载地址:https://news.huobi.com/download/socket_doc.zip
 
 
 ###2.3 行情API演示
@@ -48,6 +48,6 @@ Socket.IO实时行情接口分为三类：第一类服务能力接口，第二�
 	请先安装node，然后安装socket.io-client: npm install socket.io-client@0.9.16.
 	最后在node命令行下执行:node huobi-hq-push-demo.js
 	huobi-hq-push-demo.js
-	[下载地址](https://news.huobi.com/download/socket_demo_js.zip)
+	下载地址:https://news.huobi.com/download/socket_demo_js.zip
 
 
