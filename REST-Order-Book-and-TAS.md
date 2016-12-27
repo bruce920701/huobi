@@ -29,8 +29,8 @@
 
 买卖盘用例：
 
-![买卖盘用例](https://static.huobi.com/img/help/market_help_img3.png)
+![买卖盘用例 ]( https://static.huobi.com/img/help/market_help_img3.png )
 
 实时成交用例:
 
-![实时成交用例](https://static.huobi.com/img/help/market_help_img4.png)
+![实时成交用例 ]( https://static.huobi.com/img/help/market_help_img4.png )
