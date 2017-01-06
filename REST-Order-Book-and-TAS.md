@@ -20,7 +20,7 @@
   p_open: 4275 //开盘
   sells: Array[10] //卖10
   top_buy: Array[5] //买5
-  top_sell: Object //卖5 
+  top_sell: Array[5] //卖5 
   total: 273542407.24361 //总量（人民币） 
   trades: Array[15] //实时成交
   symbol:"btccny" //类型
